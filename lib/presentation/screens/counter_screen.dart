@@ -7,6 +7,7 @@ class CounterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(title: const Center(child: Text('Counter'))),
         body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
